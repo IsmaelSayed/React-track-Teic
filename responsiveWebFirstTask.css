@@ -1,0 +1,179 @@
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-start-right {
+  justify-content: flex-end;
+}
+.flex-warp {
+  flex-wrap: wrap;
+}
+
+.margin-25 {
+  margin-top: 25px;
+}
+.margin-50 {
+  margin-top: 50px;
+}
+.margin-40 {
+  margin-top: 40px;
+}
+/*/////////////////////////////////////////////////////////*/
+.header {
+  background-image: url("https://lp-loopstudios.vercel.app/images/desktop/image-hero.jpg");
+  height: 470px;
+}
+.haeder-p-web-name {
+  color: #fff;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.header-right-li-a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: medium;
+}
+.header-right-li-a:hover {
+  border-bottom: #fff 1px solid;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.header-right-li:hover {
+  margin-top: -10px;
+}
+.title-span-container {
+  border: #fff solid 1px;
+  padding: 10px;
+}
+.title-span {
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 0 20px;
+}
+
+.image-container {
+  margin-top: 50px;
+}
+.section-image {
+  z-index: -1;
+}
+.relative-div-text {
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  /* background-color: #568925; */
+  height: 570px;
+  z-index: 3;
+  top: -470px;
+  left: 500px;
+}
+.big-p-text {
+  /* padding-left: 50px; */
+  font-size: 48px;
+  font-weight: 400;
+}
+.p-text {
+  font-size: x-large;
+  color: #696969;
+}
+
+.p-text-show-details {
+  color: #000;
+  font-size: 48px;
+  font-weight: 400;
+}
+.see-all-btn {
+  height: 50px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-top: 50px;
+}
+.see-all-btn:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.creations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 230px);
+  grid-gap: 1rem 3rem;
+}
+
+.footer {
+  background-color: #000;
+  height: 180px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-h1-web-name {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #fff;
+}
+.footer-left-li-a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-right-li {
+  text-align: right;
+}
+.footer-left-li:hover {
+  border-bottom: #fff 1px solid;
+  padding-bottom: 10px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.footer-right-li:hover {
+  cursor: pointer;
+}
+.footer-p-copyrights {
+  color: #696969;
+  margin-top: 35px;
+}
+.mobile-width {
+  width: 100%;
+}
+/* 
+@media screen and (max-width: 1000px) {
+  .mobile-width {
+    display: block;
+  }
+} */
+
+@media screen and (min-width: 1000px) {
+  body {
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    /* Add other styles as needed */
+  }
+}
